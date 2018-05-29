@@ -19,22 +19,22 @@
 text_color_theme: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 url: # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: # does not include hostname
-title: Someone's blog
+title: CDM's blog
 description: > # this means to ignore newlines until "Language & timezone"
-  Someone's Blog
+  CDM's Blog
 
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, "en" (default, English), "zh"(简体中文), "zh-Hans"(简体中文), "zh-Hant"(繁體中文)
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: zh # the language of your site, "en" (default, English), "zh"(简体中文), "zh-Hans"(简体中文), "zh-Hant"(繁體中文)
+timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
-  name: Someone
-  email: someone@somemail.com # your Email address e.g. someone@site.com
+  name: lyqflnh
+  email: lyqflnh@163.com # your Email address e.g. someone@site.com
   facebook: # your Facebook username
   twitter: # your Twitter username
   github: # your GitHub username
@@ -46,7 +46,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: someone/someone.github.io
+repository: lyqflnh/lyqflnh.github.io
 repository_tree: master
 
 
@@ -80,14 +80,14 @@ toc:
 ## Markdown Enhancements
 
 # Mathjax
-mathjax: # false (default), true
+mathjax: true # false (default), true
 mathjax_autoNumber: # false (default), true
 
 # Mermaid
-mermaid: # false (default), true
+mermaid: true # false (default), true
 
 # Chart
-chart: # false (default), true
+chart: true # false (default), true
 
 
 ## => Paginate
