@@ -27,6 +27,10 @@
       }
     }
   }
+  h1,
+  h2 {
+    @include split-line(bottom);
+  }
   hr {
     border: none;
     &::before {
@@ -42,7 +46,8 @@
     padding-left: 1rem;
     @include split-line(left, 4px, $border-color);
     font-size: map-get($base, font-size-sub);
-    color: #BF1827;
+    color: $text-color-l;
+    border-left: 3px solid #BF1827;
     p {
       margin: map-get($base, vertical-space) 0;
     }
